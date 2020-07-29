@@ -1,0 +1,35 @@
+.main_selector{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    .botones{
+        border-right: black 1px solid;
+    }
+    button{
+        width: 100%;
+        padding: 2px;
+        border: none;
+    }
+}
+#app{
+    border:solid 2px black;
+    @media screen and (min-width: 810px){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.subcontainer {
+    @media screen and (min-width: 810px){
+        max-width: 900px;
+    }
+}
+.home{
+    max-width: 890px;
+    @media screen and (min-width: 810px){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
