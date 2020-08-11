@@ -1,12 +1,21 @@
-import React from 'react';
-import ProyectoContainer from '../components/main/ItemsContainer'
+import React, { useState } from 'react';
+import ItemsProyectos from '../components/Item'
+import '../assets/styles/components/ItemsContainer.scss';
+import items from '../data/items.json';
 
 
-const HomeProyectos = () =>(
-    <div className='home'>
-        < ProyectoContainer/>
-    
+
+const ItemsContainer =()=>{
+  const [data,setdata] = useState(items)
+  
+  return(
+    <div className='proyectos home'>
+      < ItemsProyectos data={data} />
     </div>
-);
+		
+  );
+}
 
-export default  HomeProyectos;
+
+
+export default ItemsContainer;

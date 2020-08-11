@@ -1,45 +1,45 @@
 .Hero {
-    border:solid 2px black;
-    font-size: 12px;
-    margin: 0.5em;
-    .Hero_info-container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        .Hero_foto {
-            width: 250px;
-            border-radius:150px;
-        }
-    }
-    .Hero_info {
-        display: flex;
-        justify-content: center;
-        a {
-                text-decoration: none;
-            }
-        .Hero_contact{
-            margin: 2px;
-            display: flex;
-            p{
-                font-size: 16px;
-            }
-            i {
-                font-size: 2.5em;
-                margin-right: 5px;
-            }
-        }
-    }
-    @media screen and (min-width: 560px)  and (orientation:portrait )  {
-        display: flex;
-        justify-content: space-evenly;
-    }
-    @media screen and (min-width: 1160px) and (orientation: landscape){
-        display: flex;
-        justify-content: space-evenly;
-    }
-    @media screen and (orientation: landscape){
-        display: flex;
-        justify-content: space-evenly;
-    }
+	border:solid 2px black;
+	font-size: 12px;
+	margin: 0.5em;
+	.Hero_info-container{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		.Hero_foto {
+			width: 250px;
+			border-radius:150px;
+			}
+		}
+	.Hero_info {
+		display: flex;
+		justify-content: center;
+		a {
+			text-decoration: none;
+			}
+		.Hero_contact{
+			margin: 2px;
+			display: flex;
+			p{
+				font-size: 16px;
+				}
+			i {
+				font-size: 2.5em;
+				margin-right: 5px;
+				}
+			}
+		}
+	@media screen and (min-width: 560px)  and (orientation:portrait )  {
+		display: flex;
+		justify-content: space-evenly;
+	}
+	@media screen and (min-width: 1160px) and (orientation: landscape){
+		display: flex;
+		justify-content: space-evenly;
+	}
+	@media screen and (orientation: landscape){
+		display: flex;
+		justify-content: space-evenly;
+	}
 }
 

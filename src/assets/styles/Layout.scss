@@ -21,15 +21,15 @@
 }
 
 .subcontainer {
-    @media screen and (min-width: 810px){
-        max-width: 900px;
+	@media screen and (min-width: 810px){
+			max-width: 900px;
     }
 }
 .home{
-    max-width: 890px;
-    @media screen and (min-width: 810px){
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+	max-width: 890px;
+	@media screen and (min-width: 810px){
+		display: flex;
+		flex-direction: column;
+		align-items: center;
     }
 }

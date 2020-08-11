@@ -1,12 +1,11 @@
 import React from 'react';
-import InfoAdicional from '../components/main/infoAdicional'
+import InfoAdicional from '../components/infoAdicional'
 
 
 const HomeInfoAdicional = () =>(
-    <div className='home'>
-        < InfoAdicional/>
-       
-    </div>
+	<div className='home'>
+		< InfoAdicional/>
+	</div>
 );
 
 export default  HomeInfoAdicional;

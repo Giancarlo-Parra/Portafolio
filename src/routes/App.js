@@ -7,16 +7,16 @@ import Layout from '../components/Layout';
 import 'normalize.css';
 
 const App = () => (
-     <>
+  <>
     <BrowserRouter>
-    < Layout/>
-           <Switch>
-                < Route exact path='/' component= {HomeProyecto} />
-                < Route exact path='/0' component= {HomeHabilidades} />
-                < Route exact path='/1' component= {HomeInfoAdicional} />
-           </Switch>
-        </BrowserRouter>
-    </>
+    	< Layout/>
+			<Switch>
+				< Route exact path='/' component= {HomeProyecto} />
+				< Route exact path='/0' component= {HomeHabilidades} />
+				< Route exact path='/1' component= {HomeInfoAdicional} />
+			</Switch>
+    </BrowserRouter>
+  </>
 );
 
 export default App;

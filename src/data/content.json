@@ -1,0 +1,30 @@
+{
+	"español":{
+		"perfil_profecional":{
+			"title": "Perfil Profecional",
+			"content":"Lorem 1 </br> asd"
+		},
+		"habilidades":{
+			"title": "Habilidades",
+			"content":"Lorem 2 </br> asd asdasd"
+		},
+		"masinfo":{
+			"title": "Más info",
+			"content":"Lorem 3 </br> andale a buscar mas info"
+		}
+	},
+	"ingles":{
+		"perfil_profecional":{
+			"title": "Profesional Profile",
+			"content":"Lorem 1 </br> asd"
+		},
+		"habilidades":{
+			"title": "Skills",
+			"content":"Lorem 2 </br> asd asdasd"
+		},
+		"masinfo":{
+			"title": "More info",
+			"content":"Lorem 3 </br> andale a buscar mas info"
+		}
+	}
+}

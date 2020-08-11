@@ -1,10 +1,23 @@
 import React from 'react';
+import { connect } from 'react-redux';
+import { changeLenguageToEnglish } from '../actions/changeLenguageTo';
 import '../assets/styles/components/NavBar.scss';
 
-const NavBar = () => (
-    <nav>
-       
-    </nav>
+const NavBar = (props) => {
+	const handleChangeLenguageTo = ()=>{
+		props.changeLenguageToEnglish();
+	
+	}
+	
+	return(
+	<nav>
+		
+	</nav>
 );
+	}
 
-export default NavBar;
+const mapDispatchToProps = {
+	changeLenguageToEnglish,
+}
+
+export default connect(null,mapDispatchToProps)(NavBar);
